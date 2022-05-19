@@ -1,0 +1,23 @@
+.img{
+    margin-right: 20px;
+    position:absolute;
+    height:20px;
+    width:100px;
+  font-family: 'Source Sans Pro';
+   font-style: normal;
+   font-weight:700px;
+   font-size:34px;
+   line-height:43px;
+   color:#0073FF;
+}
+ .btn{
+   border-radius: 25px;
+ }
+ ul li a{
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  color:#0073FF;
+  left:56.49%;
+  right:26.49%;
+}
+ 
