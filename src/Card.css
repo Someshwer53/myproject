@@ -60,3 +60,62 @@
      background: #FFFFFF;
      box-shadow: 0px 10px 50px 25px rgba(0,59,121,0.0725798);
  }
+
+
+   .service_card{
+       text-align: center;
+       top:999px;
+       font-family: "Source Sans Pro";
+       font-weight:600px;
+       font-size:54px;
+       color:#003B79;
+   }
+
+   .service_card p{
+       margin:auto;
+       font-family: "Source Sans Pro";
+       font-weight:400px;
+       font-size:20px;
+       line-height: 35px;;
+       text-align:center;
+       width:540px;
+       height:78px;
+       top:1111px;
+   }
+   
+   .service_card img{
+       width:273px;
+       height:323px; 
+       top:1258px;
+       float: left;
+       margin-left:40px;
+   }
+   
+   .text{
+       font-family: "Source Sans Pro";
+       font-weight:700px;
+       font-size:24px;
+       color:#002348;
+       position:relative;
+       float:left;
+       margin-top:220px;  
+       margin-left:-190px; 
+   }
+
+   .text_len{
+    margin-top: -103px;
+       font-family: "Source Sans Pro";
+       font-style:normal;
+       font-weight:700px;
+       font-size:24px;
+       color:#FFFFFF;
+       padding:7px;
+       margin-left: 30%;
+       position: relative;
+       line-height:30px;   
+   }
+
+   .neuro_img{
+       margin-bottom: 121px;
+     margin-left:45%;
+   }
