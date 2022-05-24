@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import pic from "../MediCare+.jpg";
 import {Link} from 'react-router-dom';
 import './Navbar.css';
@@ -31,7 +31,7 @@ const Navbar = () => {
         </li>
 
        <li className="nav-item">
-        <Link><button className="btn btn-primary me-2" type="button">Contact</button></Link>
+        <button className="btn btn-primary me-2" type="button">Contact</button>
        </li>
         </ul>
         
@@ -39,6 +39,6 @@ const Navbar = () => {
     </div>
   </nav>
     </>
-  )
+  );
 }
-export default Navbar
+export default Navbar;

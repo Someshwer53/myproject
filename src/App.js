@@ -1,14 +1,17 @@
 import React from 'react';
 import Navbar from './Components/Navbar';
-import Card from './Card';
+import Card from './Card.js';
+
+
  const App=()=>{
-     return(
+
+    return(
          <>
-         
           <Navbar/>
           <Card/>
          </>
-     )
+     );
+    
  }
  
 export default App;

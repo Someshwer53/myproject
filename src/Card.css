@@ -1,22 +1,20 @@
-
+.card-text{
+    display: flex;
+}
 .card-img{
- top:141px;
- left:810px;
  border-radius: 32px;
  color:#EBEEFF;
- position:absolute;
- float:right;
 }
-
- .background-img{
-     position:absolute;
-     bottom:83.33%;
-     color:#F2F2F2;
- }
-
+ 
+  .card-text .card_img{
+      margin-top:-135px;
+      left:520px;
+  }
+ 
 .card-text h3{
-    margin:5px;
-    padding:5px;
+    top:284px;
+    margin-left:50px;
+    padding-left:50px;
     height:30px;
     font-weight:700px;
     font-family: "Source Sans Pro";
@@ -24,8 +22,9 @@
     text-decoration:#002348;
 }
 .card-text h2{
-    margin:5px;
-    padding:5px;
+    top:300px;
+    margin-left:50px;
+    padding-left:50px;
     font-family: "Source Sans Pro";
     font-style:normal;
     font-weight:700px;
@@ -33,8 +32,9 @@
     color:#003B79;
 }
 .card-text p{
-    margin:10px;
-    padding:10px;
+    top:316px;
+    margin-left:50px;
+    padding-left:50px;
     width:546px;
     height:122px;
     top:444px;
@@ -46,25 +46,25 @@
      line-height:39px;
      color:#002348;
 }
- .btn{
-     margin:10px;
- }
- .button1{
-     position:absolute;
-     font-family: "Source Sans Pro";
-     font-style:normal;
-     font-weight:700px;
-     font-size:20px;
-     text-align:center;
-     color:#007DF2;
-     background: #FFFFFF;
-     box-shadow: 0px 10px 50px 25px rgba(0,59,121,0.0725798);
- }
+  
+   .card-text .button1{
+       margin:30px;
+       font-family: "Source Sans Pro";
+       font-style: normal;
+       font-size:20px;
+       align-items:center;
+       color:#007DF2;
+   }   
+    
+     .card-text .button{ 
+        margin:40px;
+     }
 
+ /* service section  -*/
 
    .service_card{
        text-align: center;
-       top:999px;
+       margin-top:110px;
        font-family: "Source Sans Pro";
        font-weight:600px;
        font-size:54px;
@@ -84,13 +84,13 @@
    }
    
    .service_card img{
-       width:273px;
-       height:323px; 
-       top:1258px;
-       float: left;
-       margin-left:40px;
-   }
-   
+    width:273px;
+    height:323px; 
+    top:1258px;
+    float:left;
+    margin-left:40px;
+}
+
    .text{
        font-family: "Source Sans Pro";
        font-weight:700px;
@@ -102,6 +102,13 @@
        margin-left:-190px; 
    }
 
+    .shape{
+     margin-top:80px;
+     margin-left:-200px;
+    }
+
+   /* second image caption  */
+    
    .text_len{
     margin-top: -103px;
        font-family: "Source Sans Pro";
@@ -116,6 +123,80 @@
    }
 
    .neuro_img{
-       margin-bottom: 121px;
-     margin-left:45%;
+      display: block;
+      margin-left:600px;
+      margin-top:-250px;
+      margin-right:auto;
+      width:50%;
    }
+
+   .neuro_img h5{
+       font-family: "Source Sans Pro";
+       font-style: normal;
+       font-weight:700px;
+       font-size:24px;
+       color:#002348;
+       line-height: 30px;
+       position: absolute;
+       margin-top:-105px;
+       margin-left:95px;
+
+   } 
+
+  .pre_img{
+      margin-left:850px;
+      margin-top:-300px;
+  } 
+  .pre_img h5{
+      font-family: "Source Sans Pro";
+      font-size: 24px;
+      font-weight:700px;
+      color: #002348;
+      font-style:normal;
+      margin-top:-110px;
+      margin-left:-165px;   
+  }
+
+
+  /*  Clinic css code */
+   .cli_container{
+       margin-top:190px;
+       margin-left:120px;
+   }
+   .cli_container h3{
+       font-family: "Source Sans Pro";
+       font-style:normal;
+       font-weight:700px;
+        font-size:24px;
+    }
+    .cli_container p{
+       width:540px;
+       height:20px;
+       font-family: "Source Sans Pro";
+       font-weight: 400;
+       font-size:20px;
+       line-height:39px;
+       color:#002348; 
+    }
+    .doc{
+        margin-left:510px;
+        margin-top:-220px;
+        padding: 20px;
+        height:240px;
+        width:240px;
+        /*border:.06272px solid #A7464F;*/
+    }
+
+    .care{
+        margin-left:810px;
+        margin-top:-220px;
+        height:220px;
+        width:220px;
+    }
+   
+    .service{
+        height:220px;
+        width:220px;
+        margin-left:-390px;
+        
+    }
