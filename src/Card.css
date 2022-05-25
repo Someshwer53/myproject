@@ -1,3 +1,10 @@
+.main_page{
+    height:auto;
+    width:auto;
+    background-color:aliceblue;
+}
+
+/*  First image code */
 .card-text{
     display: flex;
 }
@@ -48,7 +55,7 @@
 }
   
    .card-text .button1{
-       margin:30px;
+       margin:-30px;
        font-family: "Source Sans Pro";
        font-style: normal;
        font-size:20px;
@@ -57,10 +64,19 @@
    }   
     
      .card-text .button{ 
-        margin:40px;
-     }
+        margin:50px; 
+    }
 
  /* service section  -*/
+ 
+
+     .main_div{
+         height:auto;
+         width:auto;
+         background-color:#F2F2F2;
+         opacity: 0.8;
+     }
+      
 
    .service_card{
        text-align: center;
@@ -82,7 +98,7 @@
        height:78px;
        top:1111px;
    }
-   
+   /*  dental image and text --*/
    .service_card img{
     width:273px;
     height:323px; 
@@ -90,7 +106,7 @@
     float:left;
     margin-left:40px;
 }
-
+ 
    .text{
        font-family: "Source Sans Pro";
        font-weight:700px;
@@ -107,7 +123,7 @@
      margin-left:-200px;
     }
 
-   /* second image caption  */
+
     
    .text_len{
     margin-top: -103px;
@@ -121,82 +137,128 @@
        position: relative;
        line-height:30px;   
    }
-
-   .neuro_img{
-      display: block;
-      margin-left:600px;
-      margin-top:-250px;
-      margin-right:auto;
-      width:50%;
+/* end first image  code ---*/
+   
+ 
+/*  start second code image  -*/
+   .img_container{
+       display:flex;
    }
+   .img_container text{
+        margin-top: 170px;
+        font-family: "Source Sans Pro";
+        font-style:normal;
+        font-weight:700px;
+        font-size:24px;
+        color:#fff;
+        padding:7px;
+        float: left;
+        margin-left: 5%;
+        position:absolute;
+        line-height:30px;   
+ } 
 
-   .neuro_img h5{
-       font-family: "Source Sans Pro";
-       font-style: normal;
-       font-weight:700px;
-       font-size:24px;
-       color:#002348;
-       line-height: 30px;
-       position: absolute;
-       margin-top:-105px;
-       margin-left:95px;
-
-   } 
-
-  .pre_img{
-      margin-left:850px;
-      margin-top:-300px;
-  } 
-  .pre_img h5{
+    .img_container p {
       font-family: "Source Sans Pro";
-      font-size: 24px;
-      font-weight:700px;
-      color: #002348;
       font-style:normal;
-      margin-top:-110px;
-      margin-left:-165px;   
+      font-weight: 600;
+      font-size:16px;
+      color:#FFFFFF;
+       margin-left:-218px;
+       line-height: 20px;
+       margin-top:220px;
+       line-height:20px;
+  }
+  .lungs{
+      margin-top: 50px;
+      margin-left:-65px;
   }
 
+  /* third images code --*/
 
-  /*  Clinic css code */
-   .cli_container{
-       margin-top:190px;
-       margin-left:120px;
+  .main_div span{
+     margin-top:-150px;
+     margin-left:80px;
    }
-   .cli_container h3{
-       font-family: "Source Sans Pro";
-       font-style:normal;
-       font-weight:700px;
-        font-size:24px;
-    }
-    .cli_container p{
-       width:540px;
-       height:20px;
-       font-family: "Source Sans Pro";
-       font-weight: 400;
-       font-size:20px;
-       line-height:39px;
-       color:#002348; 
-    }
-    .doc{
-        margin-left:510px;
-        margin-top:-220px;
-        padding: 20px;
-        height:240px;
-        width:240px;
-        /*border:.06272px solid #A7464F;*/
-    }
 
-    .care{
-        margin-left:810px;
-        margin-top:-220px;
-        height:220px;
-        width:220px;
+   .main_div .shape_img{
+       margin-top:-230px;
+       margin-left:90px;
+   }
+
+  .main_div .plus_img{
+      margin-top:-80px;
+      margin-left:150px;
+  }
+
+  .main_div .plus_img h4{
+      font-family: "Source Sans Pro";
+      font-style: normal;
+      font-weight: 700;
+      font-size:24px;
+      line-height: 30px;
+      color:#002348;
+  }
+
+  .main_div .h4-img{
+      margin-left:-79px;
+  }
+  .main_div .main{
+      margin-left:95px;
+      margin-top:-250px;
+  }
+
+  .main_div .image_container{
+      margin-top:-165px;
+      margin-left:115px;
+  }
+  .main_div #path{
+      margin-top:-105px;
+      margin-left:-50px;
+  }
+
+  .main_div #path1{
+      margin-top:-80px;
+      margin-left:-52px;
+  }
+  .main_div #circle{
+      margin-top:-140px;
+      margin-left:5px;
+  }
+
+  .main_div h4{
+      font-family: "Source Sans Pro";
+      font-style:normal;
+      font-weight:700px;
+      font-size:24px;
+      line-height:30px;
+      color:#002348;
+  }
+  /*  end service section --*/
+
+ /* start clinic section code   --*/
+    .h6_div{
+        background-color: azure;
+        opacity: 0.4;
+    } 
+    .h6_div h3{
+        margin-top:30px;
+       margin-left: 160px;
+       font-family: "Source Sans Pro";
+       font-style: normal;
+       font-weight:600px;
+       font-size:54px;
+       line-height: 78px;
+       color:#003B79;
     }
-   
-    .service{
-        height:220px;
-        width:220px;
-        margin-left:-390px;
-        
+    .h6_div p{
+        height:78px;
+        width:546px;
+        margin-left:180px;
+        line-height: 39px;
+        font-family: "Source Sans Pro";
+        font-style: normal;
+        font-weight:400;
+        font-size:20px;
+        color:#002348;
     }

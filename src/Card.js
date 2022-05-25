@@ -1,25 +1,28 @@
 import React  from "react";
-
 import pics from "../src/images/Oval.png";
 import Ract from "../src/images/Rect.png";
-import Ractlen from "../src/images/Rectlen.png";
-import RectNeuro from "../src/images/Rectangleneuro.png";
-import RactPre from "../src/images/Rectangle_pre.png";
-import Rectangle_doc from "../src/images/Rectangle_doc.png";
-import Rectangle_care from "../src/images/Rectangle_care.png";
-import Rectangle_service from '../src/images/Rectangle_service.png';
-
 import Shape from '../src/images/Shape.png';
-
-import './Card.css';
+import Ractlen from '../src/images/Rectlen.png';
+ import Lungs from '../src/images/lungs.png';
+import RectNeuro from '../src/images/Rectangleneuro.png';
+import Shape2 from '../src/images/Shape2.png';
+import plus from '../src/images/plus.png';
+import RectPre from '../src/images/Rectangle_pre.png';
+import Shape4 from '../src/images/Shape4.png';
+import New from '../src/images/dil.png';
+import path from '../src/images/Path.png';
+import path1 from '../src/images/Path1.png';
+ import circle from '../src/images/circle.png';
+ import './Card.css';
 
  const Card=()=>{
     return(
         <>
+ 
+          <div className="main_page">  
 
-        
           <div className='oval_image'>
-           <img src={pics} height="190" width="190" alt="oval"/>
+           <img src={pics} height="170" width="170" alt="oval"/>
            </div>
 
 
@@ -38,7 +41,7 @@ import './Card.css';
              location.
         </p>  
         <div>
-          <button className="btn btn-primary">Make an Appointment</button>
+          <button className="btn btn-primary button">Make an Appointment</button>
           <button className="btn btn-light button1">Departments</button>
           </div>
          </div>
@@ -46,59 +49,76 @@ import './Card.css';
         <img src={Ract} alt="ract" className="card_img"/>
         </div>
          </div>
-
+ 
+         </div>
        {/*  Main Page end  */}
 
       {/*  Services Page--    */}
          
+          <div className="main_div">
          <div className="service_card">
           
-         
            <h2>Our Services</h2>  
           <p>We provide tha most full medical services, so every person could
               heave tha oppurtunity to receive quality medical help.</p> 
             <img src={Ract} height="100" width="100" alt="ract"/> 
              <h5 className="text">Dental Care</h5>
          </div>
-         
+
          <div>
            <img src={Shape} alt="shape" height="70" width="70" className="shape"/>
            </div>
 
-          <div>
-          <img src={Ractlen} height="300" width="300" alt="reactlen" className="rect-img"/>  
-         <h5 className="text_len">Pulmonary</h5>
-          </div>
-        
- 
-         <div className="neuro_img">
-           <img src={RectNeuro} height="300" width="300" alt="neuro"/>
-           <h5>Neurological</h5>
-         </div>
-        
+          <div className="img_container">
+          <img src={Ractlen} alt="rectangle" name="poly" height="300" width="300"/>
+           <text>Pulmonary</text>
+           <p>Learn More </p>
 
-        <div className="pre_img">
-        <img src={RactPre} height="300" width="300"  alt="Pre"/>
-        <h5 className="text-center">Prediatrics</h5>
+           <div className="lungs">
+             <img src={Lungs} alt="lungs" height="100" width="100"/>
+             </div> 
+
+
+            <span>
+              <img src={RectNeuro} alt="neuro" height="300" width="300"/> 
+              <div className="shape_img">
+                <img src={Shape2} alt="shape" height="100" width="100"/>
+              </div>
+              <div>
+              <img  src={plus} alt="plus" className="plus_img" height="30" width="30"/>
+              <h4 className="text-center">Neurological</h4>
+              </div>
+            </span>
+
+
+             <span className="h4-img">
+              <img src={RectPre} alt="pre" height="300" width="300"/>
+              <div className="main">
+                <img src={Shape4} alt="shape"/>
+              </div>
+              <img src={New} alt="New" className="image_container"/>
+              <img src={path} alt="path"  id="path"/>
+              <img src={path1} alt="path1" id="path1"/>
+              <img src={circle} alt="circle" id="circle"/>
+               <h4 className="text-center">Prediatrics</h4>
+             </span>
+
         </div>
+        </div>
+          {/* Service Page end}
 
-         {/* Service Page end}
 
-         {/* Clinic With Innovation  */}
-
-            <div className="cli_container">
-           <h3>Clinic With Innovation</h3>
-           <p>We provide tha most full medical services, so every person could 
-             heave tha oppurtunity to receive qualitative medical helps.
-           </p>
-
-           <img src={Rectangle_doc}  alt="doc" className="doc"/> 
-          </div> 
-
-         <img src={Rectangle_care} alt="care" className="care"/>
-
-         <img src={Rectangle_service} alt="service" className="service"/>
-
+{/* Clinic With Innovation  */}
+ 
+          <div className="h6_div">
+          <div className="clinic_ino">
+              <h3>Clinic With Innovative</h3>
+               <p>We provide tha most full medical service, so every person
+                 could heave tha oppurtunity to receive qualitative medical help.
+               </p>
+            </div>
+            
+          </div>
         {/*  clinic end */}
         
         </>
